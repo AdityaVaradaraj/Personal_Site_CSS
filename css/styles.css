@@ -83,13 +83,13 @@ h3 a:hover{
 } */
 .middle_container{
     padding-top: 50px;
-    background-color: white;
+    background-color: #f0f8ff;
     height: 100%;
     margin-bottom: 0;
 }
 .bottom_container{
     margin:0;
-    background-color: white; /* PASTEL PINK */
+    background-color: #f0f8ff; /* PASTEL PINK */
     height: 100%;
 }
 .footer_container{
