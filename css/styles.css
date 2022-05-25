@@ -9,7 +9,7 @@ body{
 h1{
     font-family: 'Sacramento', cursive;
     color: #FD6A02; /***Color = TIGER***/
-    font-size: 2.5rem; 
+    font-size: 3.5rem; 
     margin: 20px auto 0 auto;
     line-height: 2;
 }
@@ -26,6 +26,7 @@ h3{
 }
 p{
     font-size: 1.25rem;
+    /* color: white; */
 }
 a{
     font-family: 'Montserrat', sans-serif;
@@ -74,30 +75,31 @@ h3 a:hover{
     background-color: yellow;
 }
 
-.top_container{
-    padding-top: 100px;
-    background-color: #b9fffc; /* Lighter Shade of Turqouise */
+/* .top_container{
+    padding-top: 100px; 
+    background-color: #59515E;
     height: 100%;
     position: relative;
-}
+} */
 .middle_container{
-    background-color: lavender;
+    padding-top: 50px;
+    background-color: white;
     height: 100%;
     margin-bottom: 0;
 }
 .bottom_container{
     margin:0;
-    background-color: lavender; /* PASTEL PINK */
+    background-color: white; /* PASTEL PINK */
     height: 100%;
 }
 .footer_container{
-    margin:auto;
+    margin: 0px auto;
     background-color: papayawhip; /* PASTEL PINK */
     height: 100%;
 }
 .contact-me{
     width: 50%;
-    margin: 50px auto 0px auto;
+    margin: 0px auto 0px auto;
 }
 .footer{
     margin: 0px;
@@ -108,21 +110,6 @@ h3 a:hover{
 .subtitle{
     font-weight: normal;
     font-family: 'Merriweather', serif;
-}
-.sun{
-    position:absolute;
-    right: 900px;
-    top:50px;
-}
-.cloud_1{
-    position: absolute;
-    right: 300px;
-    top: 50px;
-}
-.cloud_2{
-    position:absolute;
-    left:300px;
-    bottom:300px;
 }
 
 .skill-row{
@@ -135,6 +122,7 @@ h3 a:hover{
     width:15%;
     margin-right: 30px;
     float: left;
+    border-style: solid;
 }
 .coding{
     width:15%;
@@ -150,11 +138,14 @@ h3 a:hover{
     width:15%;
     margin-left: 30px;
     float: right;
+    border-style: solid;
 }
 .planning{
     width:15%;
     margin-right: 30px;
     float: left;
+    border-radius: 2.5cm;
+    border-style: solid;
 }
 .project-row{
     width:70%;
