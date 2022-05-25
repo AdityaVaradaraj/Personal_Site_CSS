@@ -2,34 +2,76 @@ body{
     margin:0;
     text-align: center;
     font-family: 'Merriweather', serif;
-    font-size: 200%;
+    font-size: 150%;
 }
 
 
 h1{
     font-family: 'Sacramento', cursive;
     color: #FD6A02; /***Color = TIGER***/
-    font-size: 5.625rem; 
-    margin: 50px auto 0 auto;
+    font-size: 2.5rem; 
+    margin: 20px auto 0 auto;
     line-height: 2;
 }
 h2{
     font-family: 'Montserrat', sans-serif;
     color: #FD6A02;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
 }
 h3{
-    color: hotpink;
+    /* color: hotpink; */
+    color: #007FFF;
     font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
 }
 p{
-    font-size: 1.5rem;
+    font-size: 1.25rem;
 }
 a{
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     color: #9867C5; /***IRIS***/
     text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+    background-color: #808080;
+    /* opacity: 70%; */
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+  /* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+h3 a {
+    color: #007FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+}
+
+h3 a:hover{
+    background-color: yellow;
 }
 
 .top_container{
@@ -45,7 +87,7 @@ a{
 }
 .bottom_container{
     margin:0;
-    background-color: #ffd1dc; /* PASTEL PINK */
+    background-color: lavender; /* PASTEL PINK */
     height: 100%;
 }
 .footer_container{
@@ -83,81 +125,85 @@ a{
     bottom:300px;
 }
 .skill-row{
-    width:50%;
-    margin: 100px auto;
+    width:70%;
+    margin: 20px auto;
     text-align: left;
     
 }
-.robotics{
-    width:25%;
+.control{
+    width:15%;
     margin-right: 30px;
     float: left;
 }
 .coding{
-    width:25%;
+    width:15%;
     margin-left: 30px;
     float: right;
 }
 .AI{
-    width:25%;
+    width:15%;
     margin-right: 30px;
     float: left;
 }
 .image_proc{
-    width:25%;
+    width:15%;
     margin-left: 30px;
     float: right;
 }
-.mechatronics{
-    width:25%;
+.planning{
+    width:15%;
     margin-right: 30px;
     float: left;
 }
-.mechanical{
-    width:25%;
-    
-    float: right;
-}
-.pistons{
-    width:25%;
-    margin-left: 30px;
-    float:right;
-}
 .project-row{
-    width:50%;
-    margin: 100px auto;
+    width:70%;
+    margin: 20px auto;
     text-align: left;
 }
-.skin{
-    width:35%;
+.proj_1{
+    width:25%;
     margin-right: 30px;
     float:left;
 }
-.f_kin{
-    width:35%;
+.proj_2{
+    width:25%;
     margin-left: 30px;
     float:right;
 }
-.g_iot{
-    width:35%;
+.proj_3{
+    width:25%;
     margin-right: 30px;
     float:left;
 }
-.V_TT{
-    width:35%;
+.proj_4{
+    width:25%;
     margin-left: 30px;
     float:right;
 }
-.mdv{
-    width:35%;
+.proj_5{
+    width:25%;
     margin-right: 30px;
     float:left;
 }
-.admc{
-    width:35%;
+.proj_6{
+    width:25%;
     margin-left: 30px;
     float:right;
 }
+
+.linkedin{
+    width:10%;
+    margin-left: 30px;
+}
+.gmail{
+    width:10%;
+    margin-left: 30px;
+}
+.github{
+    width:10%;
+    margin-left: 30px;
+}
+
 hr {
     border-style: none;
     border-top-style: dotted;
@@ -167,10 +213,10 @@ hr {
     width: 5%;
 }
 .profile{
-    width: 50%;
-    margin:0 auto;
+    width: 70%;
+    margin: 0 auto;
 }
-.BUTTON_FAW {
+/* .BUTTON_FAW {
     background:papayawhip;
     background-image: -webkit-linear-gradient(top,papayawhip, #fffd37);
     background-image: -moz-linear-gradient(top, hotpink, magenta);
@@ -208,4 +254,4 @@ hr {
     -moz-border-radius: 20px;
     border-radius: 20px;
     text-decoration: none;
- }
+ } */
