@@ -124,6 +124,13 @@ h3 a:hover{
     left:300px;
     bottom:300px;
 }
+.robotics{
+    position:absolute;
+    right:300px;
+    bottom:300px;
+}
+
+
 .skill-row{
     width:70%;
     margin: 20px auto;
